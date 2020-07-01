@@ -3,5 +3,5 @@ const botconfig = require('../config.json');
 const creator = require('../creator.json');
 module.exports = bot => { 
     console.log(`${bot.user.username} is online Now!`)
-        bot.user.setActivity(`[ ${botconfig.prefix}help ]`, {type: "LISTENING"});//You Can Change To (LISTENING) Or Something else..
+        bot.user.setActivity(`[ ${botconfig.prefix}help ]`, {type: "WATCHING"});//You Can Change To (LISTENING) Or Something else..
 }

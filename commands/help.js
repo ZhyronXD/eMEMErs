@@ -14,14 +14,11 @@ module.exports.run = async (bot, message, args) => {
         var embed = new Discord.MessageEmbed()
         .setAuthor(`${bot.user.username} Help`, bot.user.displayAvatarURL())
         .setFooter(`${bot.user.username}`)
-        .setDescription(`‣** ${botconfig.prefix}help <command>** For Advance Help.\n‣ See Any Problem With My Bot? Type **${botconfig.prefix}support** And find Problem-Report channel then You can send Any Problem.\n‣ Prefix: ${botconfig.prefix}`)
+        .setDescription(`**‣ ${botconfig.prefix}help <command>** For Advance Help ${emoji.flypig}\n‣ Prefix: ${botconfig.prefix} ${emoji.verified}`)
         .setColor('RANDOM')
          .addFields(
-            {name: `${emoji.admins} ‣ **Administration**`, value: '`ban` **|** `kick` **|** `clear` **|** `announcement`'},
-            {name: `${emoji.discload} ‣ **Information**`, value: '`botinfo` **|** `changelog` **|** `serverinfo` **|** `userinfo`'},
-            {name: `${emoji.flypig} ‣ **Support**`, value: '`support` **|** `supporterlist` **|** `botinvite`'},
-            {name: `${emoji.rainbowfrog} ‣ **Fun**`, value: '`meme` **|** `8ball` **|** `howgay` **|** `lucky` **|** `lesbian` **|** `gender` **|** `say` **|** `nsfw`'},
-            {name: `${emoji.admin} ‣ **Other**`, value: '`useravatar`'}
+            {name: `${emoji.discload} ‣ **Information**`, value: '**‣ botinfo**\n**‣ botinvite**'},
+            {name: `${emoji.rainbowfrog} ‣ **Fun**`, value: '**‣ meme**\n**‣ 8ball**\n**‣ howgay**\n**‣ lucky**\n**‣ lesbian**\n**‣ gender**\n**‣ say**\n**‣ nsfw**'}
         )
         .setTimestamp()
 

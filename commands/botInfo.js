@@ -12,7 +12,7 @@ module.exports.run = async (bot, message, args) => {
             {name: '**Bot Name:**', value: `${bot.user.username} ${emoji.discload}`},
             {name: '**Bot Used In:**', value: `${bot.guilds.cache.size} Server ${emoji.flypig}`},
             {name: '**Prefix:**', value: `${botconfig.prefix}`},
-            {name: '**Bot Created at:**', value: '30/May/2020 08.16 AM'}
+            {name: '**Bot Created at:**', value: '1/June/2020 12.55 PM'}
         )
         .setTimestamp()
 
