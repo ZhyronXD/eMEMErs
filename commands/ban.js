@@ -7,7 +7,6 @@ module.exports.run = async (bot, message, args) => {
     const lol = ["The Weird Man In The World", "The Pro Man In The World"]
     const random = lol[Math.floor(Math.random() * lol.length)];
 
-    if (!message.member.hasPermission("BAN_MEMBERS", "ADMINISTRATOR")) return message.reply(`\n${emoji.no} You Don't Have Permission To Run This Command! ${emoji.no}`);
     let user = message.mentions.users.first();
 
     let member = message.guild.member(user);
