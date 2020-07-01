@@ -8,9 +8,9 @@ module.exports.run = async (bot, message, args) => {
         .setColor('#45DDC0')
         .setFooter(`${bot.user.username}`)
         .addFields(
-            {name: '**Bot Creator:**', value: `<@${creator.creator}> ${emoji.verified}`, inline: true},
-            {name: '**Bot Name:**', value: `${bot.user.username} ${emoji.discload}`},
-            {name: '**Bot Used In:**', value: `${bot.guilds.cache.size} Server ${emoji.flypig}`},
+            {name: '**Bot Creator:**', value: `<@${creator.creator}>`, inline: true},
+            {name: '**Bot Name:**', value: `${bot.user.username}`},
+            {name: '**Bot Used In:**', value: `${bot.guilds.cache.size} Server`},
             {name: '**Prefix:**', value: `${botconfig.prefix}`},
             {name: '**Bot Created at:**', value: '1/June/2020 12.55 PM'}
         )
