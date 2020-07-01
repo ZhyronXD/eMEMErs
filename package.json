@@ -1,0 +1,17 @@
+{
+  "name": "neito-bot",
+  "version": "1.0.0",
+  "description": "Created By JustNeito#2156",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JustNeito#2156",
+  "license": "ISC",
+  "dependencies": {
+    "discord-moderator-bot": "^1.1.0",
+    "discord.js": "^12.2.0",
+    "moment": "^2.26.0",
+    "random-puppy": "^1.1.0"
+  }
+}
