@@ -5,7 +5,7 @@ const creator = require('../creator.json');
 module.exports.run = async (bot, message, args) => {
     const embed = new Discord.MessageEmbed()
     .setTitle('Here Is My Invite Link.')
-    .setURL('https://discord.com/api/oauth2/authorize?client_id=716278759019511871&permissions=8&scope=bot')
+    .setURL('https://discord.com/api/oauth2/authorize?client_id=727758807127818290&permissions=1141374065&scope=bot')
     .setFooter(`${bot.user.username}`)
     .setColor('RANDOM')
     .setTimestamp()

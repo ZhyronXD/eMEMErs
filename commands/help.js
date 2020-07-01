@@ -14,11 +14,11 @@ module.exports.run = async (bot, message, args) => {
         var embed = new Discord.MessageEmbed()
         .setAuthor(`${bot.user.username} Help`, bot.user.displayAvatarURL())
         .setFooter(`${bot.user.username}`)
-        .setDescription(`**‣ ${botconfig.prefix}help <command>** For Advance Help ${emoji.flypig}\n‣ Prefix: ${botconfig.prefix} ${emoji.verified}`)
+        .setDescription(`**‣ ${botconfig.prefix}help <command>** For Advance Help\n‣ Prefix: ${botconfig.prefix}`)
         .setColor('RANDOM')
          .addFields(
-            {name: `${emoji.discload} ‣ **Information**`, value: '**‣ botinfo**\n**‣ botinvite**'},
-            {name: `${emoji.rainbowfrog} ‣ **Fun**`, value: '**‣ meme**\n**‣ 8ball**\n**‣ howgay**\n**‣ lucky**\n**‣ lesbian**\n**‣ gender**\n**‣ say**\n**‣ nsfw**'}
+            {name: `${emoji.discload} ‣ **Information**`, value: '**‣**`botinfo`\n**‣**`botinvite`'},
+            {name: `${emoji.rainbowfrog} ‣ **Fun**`, value: '**‣** `meme`\n**‣**`8ball`\n**‣**`howgay`\n**‣**`lucky`\n**‣**`lesbian`\n**‣**`gender`\n**‣**`say`\n**‣**`nsfw`'}
         )
         .setTimestamp()
 
